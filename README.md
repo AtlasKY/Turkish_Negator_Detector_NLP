@@ -1,0 +1,2 @@
+# Turkish Negator
+ 

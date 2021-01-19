@@ -8,6 +8,7 @@ https://github.com/panyang/Wikipedia_Word2vec/blob/master/v1/process_wiki.py
 """
 
 import sys
+import time
 from gensim.corpora import WikiCorpus
 from gensim.models.word2vec import Word2Vec, LineSentence
 from gensim.models import KeyedVectors
@@ -19,11 +20,13 @@ def corpus_make(f_in, txt_out):
     output = open(txt_out, 'w')
     corpus = WikiCorpus(f_in)
 
+    print("Pre-Processing started...")
+
     i = 0
     for text in corpus.get_texts():
         output.write(bytes(' '.join(text), 'utf-8').decode('utf-8') + '\n')
         i = i + 1
-        if (i % 1000 == 0):
+        if (i % 100 == 0):
             print("Processed " + str(i) + "articles.")
 
     output.close()
@@ -37,14 +40,25 @@ def word2vec(path_corpus):
     HS = 0  # negative sampling
     line_sent = LineSentence(path_corpus)
 
-    model = Word2Vec(corpus_file=line_sent, vector_size=SIZE,
-                     window=5, sg=SG, hs=HS)
+    #corpus = open(path_corpus)
 
-    model_name = "wiki_tr_w2v.model"
-    model.save(model_name)
+    start = time.time()
+    print("Model training starting...")
+
+    model = Word2Vec(sentences=line_sent, size=SIZE, window=5, sg=SG, hs=HS)
+
+    model.build_vocab(line_sent)
+    words = model.wv.vocab.keys()
+    vocab_size = len(words)
+    print("Vocab size", vocab_size)
+
+    end = time.time()
+    print("Model done. Took " + str(end-start) + " time.")
+
+    model.save("wiki_tr_w2v.txt")
 
     word_vectors = model.wv
-    word_vectors.save("word2vec.wordvectors")
+    word_vectors.save("word2vec.txt")
 
     return
 
@@ -55,5 +69,5 @@ if __name__ == '__main__':
         print("python wikiCorpus.py wiki...xml.bz2 wiki_tr.txt")
         sys.exit(1)
     f_in, txt_out = sys.argv[1:3]
-    corpus_make(f_in, txt_out)
+    #corpus_make(f_in, txt_out)
     word2vec(txt_out)

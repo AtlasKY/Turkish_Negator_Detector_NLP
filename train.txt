@@ -1,26 +1,41 @@
 1, üç artı bir istemiyorum
+0, üç artı bir istiyorum
 1, eşya olmasın
+0, eşya olsun
 1, manzarasız olsun
+0, manzaralı olsun
 1, eşyasız olsun
+0, eşyalı olsun
 0, asansör olmalı
+1, asansör olmamalı
 0, deniz manzaralı istiyorum
+1, deniz manzaralı istemiyorum
 0, asansör var
 1, asansör yok
 1, asansörsüz
+0, asansörlü
 0, alacağım
+1, almayacağım
 0, gelebilirim
 1, gelemem
 1, satın almayacağım
+0, satın alacağım
 0, kiralayacağım
+1, kiralamayacağım
 0, görüşebiliriz
+1, görüşemeyiz
 0, uygun
 1, uygun değil
 1, müsait değil
+0, müsait
 1, manzarası yok
 0, manzarası var
 1, eşyalı olmaz
+0, eşyalı olur
 0, olmazsa olmaz
+0, olmasa olur
 1, alt kat olmayan
+0, alt kat olan
 0, ankastre olsa
 1, ankastre olmasa
 1, hayır
@@ -28,111 +43,196 @@
 0, öyle 
 1, öyle değil
 0, mini havuzu bulunan
+1, mini havuzu bulumayan
 0, iskanı alınmış 
+1, iskanı alınmamış
 0, krediye uygundur
 1, krediye uygun değildir
 0, bahçe kullanımına sahiptir
+1, bahçe kullanımına sahip değildir
 0, merkezi konumda 
+1, merkeze uzak
+1, merkezi konumda değil
 0, otelin kendi plajı var
+1, otelin kendi plajı yok
 1, kendi plajı yok
+0, plajı var
 1, hayır sadece havuzumuz var
+0, evet restoranımız da var
 0, balkon da mevcuttur
+1, balkon da yok
 0, balkon mevcuttur
+1, balkon mevcut değil
 0, 3 tip odamız var 
+1, 3 tip odamız yok
 0, hizmeti sunuyoruz
+1, hizmeti sunmuyoruz
 1, sunamıyoruz
 1, sunmuyoruz
+0, sunuyoruz
 0, istiyor
 1, istemiyor
 0, alkol hizmetimiz vardır
+1, alkol servisimiz yoktur
 0, tapusu mevcuttur
 1, tapusu mevcut değildir
 1, tapusu yoktur
+0, tapusu vardır
 1, tapusu elimizde değil
 1, tapusu elimizde
 0, evet hepsi mevcuttur
-0, ve kayıt sistemi vardır
-0, giriş kat depo alanıdır 
+1, hayır hepsi mevcut değildir
+0, evet hepsi var
+1, hayır hiçbiri yok
+0, ve kayıt sistemi var
+1, ama kayıt sistemi yok
+0, giriş kat depo alanıdır
+1, giriş kat depo değildir
 0, 2 adet oda bulunmaktadır
+1, 2 adet oda bulunmamaktadır
 1, tuvalet bulunmamaktadır
+0, tuvalet bulunmaktadır
 1, balkon bulunmamaktadır
+0, balkon bulunmaktadır
 1, hayır kuzeye bakmıyor
+0, evet kuzeye bakıyor
 0, hayır güneye bakıyor
 1, evet güneye bakmıyor
 0, odasına ihtiyacımız var 
+1, odasına ihtiyacımız yok
 0, tabi krediye uygundur 
+1, yalnız krediye uygun değildir
 0, bir randevu alabiliriz
+1, bir randevu alamayız
 1, o saat uygun değil
+0, o saat uygun bize
 1, perşembe olmaz bana
+0, perşembe olur bana
 0, peki ya çarşamba
+1, ya çarşamba da olmaz
 0, haftasonu uygun olur
-0, uygundur 
+1, haftasonu uygun olmaz
+0, uygundur
+1, uygun değildir 
 0, görüşmek üzere hoşçakalın
 0, yardımcı olabilirim
+1, yardımcı olamam
 0, mevcut
 1, mevcut değil
 1, ofis olarak kullanılamaz
+0, ofis olarak kullanılabilir
 0, sadece mimarlık ofisi olabilir
+1, sadece mimarlık ofisi olamaz
 1, ticaret ofisi olamaz
+0, ticaret ofisi olabilir
 0, otoparkımız vardır
+1, otoparkımız yoktur
 1, kapalı havuz yok
+0, kapalı havuz var
 1, açık havuz yok
+0, açık havuz var
 1, açık havuz da yok
+0, açık havuz da var
 0, spor salonu vardır
+1, spor salonu yoktur
 0, bin beş yüz olur
+1, bin beş yüz olmaz
 0, aidat var
 1, aidat yok
 0, saat on bir uygun
+1, saat on bir uygun değil
 1, o saat uygun değil
-1, daireyi görmemiz mümkün değil
+0, o saat uygun
+1, daireyi görmeniz mümkün değil
+0, daireyi görmeniz mümkün
 1, daireyi göremeyiz
 0, daireyi görebiliriz
 0, kiracımız var
+1, kiracımız yok
 1, kiracı yok
+0, kiracı var
 0, daire boş
+1, daire dolu
 1, talep yok
 0, talep var
 1, çıkaramadım
+0, çıkardım
+1, tanıyamadım
+0, tanıdım
 0, hatırladım
+1, hatırlamadım
 0, yarın görüşürüz
+1, yarın görüşmeyiz
 0, yıllık ödeme alabiliriz
+1, yıllık ödeme alamayız
 0, depozito lazım
+1, depozite lazım değil
 0, ofis için lazım
-1, otopark lazım değil
+1, ofis için lazım değil
+1, otoparka gerek yok
+0, otoparka gerek var
 1, yok öyle olmaz
+0, tamam öyle olur
 0, tamamdır o şekilde yapalım
+1, yok o şekilde yapmayalım
 0, tamam öyle olsun
+1, yok öyle olmasın
 1, böyle olmaz
+0, böyle olur
 1, bu rakamlar zor
+0, bu rakamlar tamam
 1, balkonsuz zor
+0, balkonsuz olur
 1, otopark yoksa zor
+0, otopark yoksa sorun olmaz
 0, güvenlik var
+1, güvenlik yok
 0, metroya ulaşım kolay
 1, metroya ulaşım yok
 0, yardımcı olacağım
 1, yardımcı olmayacağım
 0, fabrika o bölgede
 1, fabrikamız yok
+0, fabrikamız var
 1, fabrikamız o bölgede değil
 0, fiyatta pazarlık imkanımız var
+1, fiyatta pazarlık imkanı yok
+0, fiyatta oynayabiliriz
+1, fiyatta oynayamayız
 0, fabrikayı görmek isterim
+1, fabrikayı görmek istemem
 1, kuşlar uymuyor
+0, kuşlar uyuyor
 1, kuşlar uçmuyor
+0, kuşlar uçuyor
 0, hep beraber geldik
+1, hep beraber gelmedik
+0, tek ben geldim
+1, tek ben gelmedim
 0, yolda kaza vardı
+1, yolda kaza yoktu
 0, trafik çok sıkışıktı
 1, trafik hiç sıkışık değildi
 1, hiç uçak yoktu
+0, hep uçak vardı
 0, gelen herkesi gördük
+1, gelen herkesi görmedik
 0, bir o kadar yorgunum
+1, bir o kadar yorgun değilim
 1, bana demedi
+0, bana dedi
 1, kolay değil
-0, sınav zormuş
+0, kolay
+1, sınav zormuş
+0, sınav kolaymış
 0, hoca gelmiş
 1, hoca gelmemiş
 0, uçak sallanmaya başladı
+1, uçak sallanmayı bitirdi
 1, uçak sallanmıyor
+0, uçak sallanıyor
 1, uçak sallanmadı
+0, uçak sallandı
 1, tekne sallanmadı
 0, tekne sallandı
 0, kayık sallanacak
@@ -144,6 +244,7 @@
 0, koşmak
 1, koşmamak
 1, koşamamak
+0, koşabilmek
 0, görme durumu
 1, görmeme durumu
 0, görme
@@ -151,100 +252,429 @@
 0, görebilme
 1, görememe
 0, karıştırıldı
+1, karıştırılmadı
 1, karıştırma şimdi
+0, karıştır şimdi
 1, karıştırılmadan
 0, yemek yapmak gerek
+1, yemek yapmak gerekmez
 0, yemek yemeye gel
-1, yemek yemeye gelmeyeceğim
+1, yemek yemeye gelme
 1, odamdan çıkamıyorum
 0, odamdan çıktım geliyorum
 0, uçak indi geliyoruz
+1, uçak inmedi gelemiyoruz
 1, bir kalkmayı bilemediler
+0, bir kalktılar
 1, çay koyamıyoruz
-1, çay bitmedi
+0, çay koyabiliyoruz
+0, çay bitmedi
 1, çay bitti
 1, kola yok
-0, kola bitti
+0, kola var
+1, kola bitti
 0, evdeyim
+1, evde değilim
 0, ofisteyim
+1, ofiste değilim
 0, kahve içiyorum
+1, kahve içmiyorum
 0, yoldayım
+1, yolda değilim
 1, çekemiyorum
+0, çekebiliyorum
 1, makine ile çekemiyorum
+0, makine ile çekebiliyorum
 0, tüm bardaklar kırıldı
 1, hiçbir bardak kırılmadı
 1, hiçbir oyuncu sakatlanmadı
+0, tüm oyuncular sakatlandı
 0, bütün şişe ekşimiş
+1, şişe hiç ekşimemiş
 0, tüm daireler güneye bakıyor
+1, hiçbir daire güneye bakmıyor
 0, tüm apartmanlarda asansör var
+1, hiçbir apartmanda asansör yok
 1, hiçbir yerden gelemezsiniz
+0, heryerden gelirsiniz
 1, buraya siz gelemezsiniz
+0, buraya siz gelirsiniz
 0, heryerden kolayca gelebilirsiniz
+1, kolayca gelemezsiniz
+1, zor gelirsiniz
 0, heryere kolay ulaşım vardır
+1, hiç kolay ulaşım yoktur
 0, ne güzel çiçekler ekmişler
+1, ne güzel çiçekler ekmemişler
+1, ne çirkin çiçekler ekmişler
 1, kaptan gemiyi yanaştıramadı
+0, kaptan gemiyi yanaştırdı
 1, merdivenden inemedi
+0, merdivenden indi
 0, üçer beşer atladı
+1, üçer beşer atlayamadı
 0, hepsini hemen anladı
+1, hiçbir şeyi anlamadı
 0, hemen sonra geldi
+1, hemen sonra gelmedi
 1, hemen hemen hiç yok
+0, daha çok var
 1, hiç araba yok
+0, çok araba var
 0, hemen koş gel
+1, koyup gelme
 1, yoldan araç çevirme
+0, yoldan araç çevir
 0, taksi hızlıca geldi
+1, taksi hızlıca gelmedi
 0, bilgisayarı açtı
 1, bilgisayar açılmıyor
 0, televizyonda güzel programlar var
+1, televizyonda güzel programlar yok
 0, kumandayı versene
+1, kumandayı vermesene
 1, kalemi vermesen
+0, kalemi versen
 1, kanepede yatmasan
+0, kanepede yatsan
 0, bir kere sen gel
+1, bir kere sen gelme
 0, evde parke döşeli
+1, evde parke yok
 1, ev ankastresiz
+0, ev ankastreli
 1, kitapsız
+0, kitaplı
 1, yurtsuz
+0, yurtlu
 1, arabasız
 0, arabalı
 0, yollu
+1, yolsuz
 0, metrolu
+1, metrosuz
 0, otoparklı
+1, otoparksız
 0, balkonlu
+1, balkonsuz
 0, balkonsuz istiyoruz
+1, balkonsuz istemiyoruz
 1, otoparklı istemiyorum
+0, otoparklı istiyorum
 1, arabalı istemem
-0, kaldırımsız istiyorum
-0, asansörsüz istiyorum
+0, arabalı isterim
+1, kaldırımsız istiyorum
+0, kaldırımlı istiyorum
+1, asansörsüz istiyorum
+0, asansörsüz istemiyorum
 1, asansörlü olmasın
+0, asansörlü olsun
 1, markete yakın olmazsa
+0, markete yakın olursa
 1, gelen giden olmasın
+0, gelen giden olsun
 0, karışık tabak versene
+1, karışık tabak vermesene
 0, bir de ben deneyeyim
+1, bir de ben denemeyeyim
 1, gelmeyeyim
+0, geleyim
 0, indirim vereyim
-0, indirim yapayım
+1, indirim vermeyeyim
+0, indirim yaparım
+1, indirim yapmamam
 1, uçak gelmedi
+0, uçak geldi
+0, baktım
+1, bakmadım
 0, geri getiremeye geldim
+1, geri getirmeye gelmedim
 0, tavsiye vermeye gitti
+1, tavsiye vermemeye gitti
+1, tavsiye vermeye gitmedi
 1, çok karışmamak gerek
+0, çok karışmak gerek
 1, gelmemek gerek
+0, gelmek gerek
+0, gelmemek gerek değil
+1, gelmek gerek değil
 0, çocuk çok neşeli
+1, çocuk çok neşesiz
 0, müşteriler çok memnun
+1, müşteriler az memnun
 0, herkes çok mutlu
+1, herkes çok mutsuz
 1, hiçkimse mutlu değil
 1, ben mutsuzum
+0, ben mutluyum
 1, herkes mutsuz
 0, hiçkimse mutsuz değil
+1, hiçkimse mutlu değil
 0, almayacak değilim
+1, alacak değilim
 0, gelmeyecek değilim
+1, gelecek değilim
+1, gelmeyecek
+0, gelecek
 0, vermemezlik etmeyeceğim
+1, vermemezlik edeceğim
 0, görmedim demem
-1, gördüm diyemem
+1, görmedim derim
 1, görmedim
-0, görmeden edemem
-0, koşmadan inemem
+0, gördüm
+1, gördüm diyemem
+0, gördüm derim
+1, evora park bizi aşar
+0, efora park bizi aşmaz
+1, görmeden edemem
+0, görmeden ederim
+1, koşmadan inemem
+0, koşmadan inerim
 1, uçaktan inemedim
+0, uçaktan indim
 0, karşıdan gördüm
+1, karşıdan görmedim
 1, adalar manzarası yok
+0, adalar manzarası var
 0, adaları görmüyor değil
+1, adaları görmüyor
 0, deniz manzarası yok değil
+1, deniz manzarası yok
 1, manzarasız
+0, manzaralı
+1, iki salon bizi aşar
+0, iki salon bizi aşmaz
+0, üç oda çok uygun
+1, üç oda uygun değil
+0, üç oda uygun
+1, üç oda çok uygunsuz
+0, arsa olsun
+1, arsa olmasın
+1, fabrika olmasın
+0, fabrika olsun
+0, yol üstü olsun
+1, yol üstü olmasın
+0, rezidans dairem var
+1, rezidansta dairem yok
+0, 4 oda yeterli
+1, 4 oda yetersiz
+1, 2 oda yeterli değil
+0, 2 oda yeterli
+0, arsa arıyorum
+1, arsa aramıyorum
+1, arsam yok
+0, arsam var
+0, şu an gelebilirsiniz
+1, şu an gelemezsiniz
+0, hemen bakabiliriz
+1, hemen bakamayız
+1, bugün olmaz
+0, bugün olur
+0, yarın gelin
+1, yarın gelmeyin
+0, tapu teslime hazır
+1, tapu teslime hazır değil
+1, henüz hazır değil
+0, şimdi hazır
+0, metrekaresi büyük bir daire
+1, metrekaresi küçük bir daire
+1, metrekaresi az bize
+1, metrekaresi çok bize
+0, metrekaresi tam bize
+0, metrekaresi uygun bize
+1, daha büyük yok
+1, daha küçük yok
+0, hepsi aynı
+1, hepsi farklı
+1, yok ne yazık ki
+0, var tabi ki
+1, kiracı bulması çok güç
+0, kiracı bulması çok kolay
+1, o daire yeni satıldı
+0, o daire daha satılmadı
+0, hala müsait
+1, hala müsait değil
+1, çok yoğun
+0, yoğun değil
+0, tenha
+1, tenha değil
+1, az önce kiraya verdim
+0, hemen kiralayalım
+1, hemen kiralamayalım
+0, hemen kiraya vereceğim
+1, hemen kiraya vermeyeceğim
+0, otoparkı olsun
+1, otoparkı olmasın
+1, spor salonu kapalı
+0, spor salonu açık
+1, sosyal tesis yok
+0, sosyal tesisi var
+1, giriş katı olmasa iyi
+0, giriş katı olsa iyi
+0, 4 oda varsa güzel
+1, 4 oda varsa kötü
+0, tadilat izni varsa hoş
+1, tadilat izni yoksa fena
+1, kiralık olmasa daha iyi
+0, kiralık olsa daha iyi
+0, yatırım için alıyorum
+1, yatırım için almıyorum
+0, oturmak için alıyorum
+1, oturmak için almıyorum
+1, kira getirisi çok az
+0, kira getirisi çok
+1, kira getirisi az
+0, gelir düzeyi yüksek
+1, gelir düzeyi düşük
+0, mahalle düzgün
+1, mahalle sorunlu
+0, düzgün bir semt
+1, biraz karışık bir semt
+1, site sakinleri biraz olaylı
+0, ev sahibinden kiralık
+0, müteahhitten satılık
+1, oda sayısı az
+1, oda sayısı çok
+0, oda sayısı ideal
+1, bize burası küçük geldi
+0, bize burası ideal
+1, kredi olmuyor maalesef
+0, tabi krediye uygun
+1, maalesef
+0, tabi
+1, metroya uzak
+0, metroya yakın
+0, metroya ideal mesafede
+1, uzak toplu taşımaya
+0, yakın toplu taşımaya
+0, yakın markete falan
+1, spor salonu falan yok
+0, spor salonu falan var
+0, yüzme havuzu var ama
+1, yüzme havuzu yok ama
+0, çocuk havuzu açık
+1, çocuk havuzu kapalı
+1, havuz yoksa zor
+0, havuz yoksa tamam
+1, asansör yoksa ilgilenmiyorum
+0, asansör yoksa ilgileniyorum
+0, manzarası varsa olur
+1, manzarası varsa olmaz
+0, geliri iyiyse tamam
+0, tamam
+1, doğuya bakmıyor
+0, doğuya bakıyor
+0, sıcak olsun istiyoruz
+1, sıcak olsun istemiyoruz
+1, sıcak olmasın istiyoruz
+1, sıcak olmasını istemiyoruz
+0, kuzey cephesine doğru bakıyor
+0, güney cephesine bakıyor
+1, kuzey cephesine doğru bakmıyor
+1, batı cephesini görmüyor
+0, batı cephesini görüyor
+1, sabah güneşi almaz
+1, akşam güneşi almaz
+0, sabah güneşi alır
+0, akşam güneşi de alır
+0, gelin buraya
+1, gelmeyin buraya
+1, gelmeyin lütfen
+0, gelin lütfen
+0, lütfen gelin
+1, lütfen gelmeyin
+0, lütfen
+0, bir oda büyüklüğünde olup
+1, bir oda büyüklüğünde değil
+0, iki oda büyüklüğünde
+1, iki oda büyüklüğünde olmayıp
+0, kemik hastalığına iyi gelmektedir
+1, kas hastalığına iyi gelmemektedir
+1, sağlığa kötü gelmektedir
+0, strese kötü gelmemektedir
+0, zenginlik katmışlardır
+1, zenginlik katmamışlardır
+1, fakirlik katmışlardır
+0, birçok farklı yerde kullanılmaktadır
+1, birçok farklı yerde kullanılmamaktadır
+1, farklı yerlerde hiç kullanılmamaktadır
+0, aynı yerlerde kullanılmaktadır
+0, olarak kabul edersek
+1, olarak kabul etmezsek
+0, kabul ederiz
+0, kabul edebiliriz
+1, kabul etmeyiz
+1, kabul edemeyiz
+0, kapali termal havuzu olan
+1, kapalı termal havuzu olmayan
+0, açık havuzu olan
+1, açık havuzu olmayan
+1, çok küçük bir tesistir
+0, çok küçük bir tesis değildir
+1, büyük bir tesis değildir
+0, büyük bir tesistir
+0, bazı yapılar bulunur 
+1, bazı yapılar bulunmaz
+0, birçok yapı bulunabilir
+1, birçok yapı bulunamaz
+1, hiçbir şey bulunamaz
+0, her şey bulunur
+0, hala ayaktadır
+1, hala ayakta değildir
+0, depo olarak kullanılır 
+1, depo olarak kullanılmaz
+0, ofis olarak kullanılan
+1, ofis olarak kullanılmayan
+0, ikişer oda yer alır
+1, ikişer oda yer almaz
+0, üçer oda vardır
+1, üçer oda yoktur
+1, kırılmalar bulunur
+0, kırılmalar bulunmaz
+0, kısımda da yer alabilir 
+1, kısımda da yer alamaz
+0, oda ve salonlar bulunmaktadır
+1, oda ve salonlar bulunmamaktadır
+0, öğrenilmesi kolay 
+1, öğrenilmesi zor
+1, o kadar kolay öğrenilemeyeceği
+0, o kadar kolay öğrenileceği
+1, zor öğrenileceği
+0, kolay öğrenileceği
+0, ortaya konuldu
+1, ortaya konulmadı
+1, yeterince kolay değildir 
+0, yeterince zor değildir
+1, o kadar kolay değildir
+1,  iyi değildir
+0, o kadar kolay
+0, zor değildir
+1, kolay değildir
+0, o kadar iyi
+1, o kadar kötü
+0, kötü değildir
+1, iddia edilenin aksine
+0, iddia edildiği üzere
+0, kolay yazmayı sağlayan
+1, zor yazmayı sağlayan
+0, zor yazmamayı sağlayan
+1, kolay yazmayı sağlamayan
+1, her zaman kolay olmaz
+0, her zaman kolay olmalı
+0, her zaman zor olmaz
+1, her zaman zor olmalı
+1, hiçbir zaman kolay olmamalı
+0, hiçbir zaman zor olmamalı
+0, bir oyuncu olarak anıldı
+0, kiralık olarak da oynadığı
+1, kiralık olarak oynamadığı
+0, satılık olarak verilmiştir
+1, satılık olarak verilmemiştir
+0, teslim edilmesini istedi
+1, teslim edilmesini istemedi
+1, teslim edilmemesini istedi
+0, teslim edilmemesini istemedi
+0, yüklü bir kira yükler
+1, yüklü bir kira yüklemez
+0, memurlara gider
+1, memurlara gitmez

@@ -1,0 +1,100 @@
+1, satılık değil
+1, yedi oda bizi aşar
+1, beşiktaş uzak kalır
+0, güzel bir fiyat
+0, bize uygun
+1, çok pahalı
+0, fiyat hesaplıymış
+1, iki oda az
+1, asansörsüz bize gelmez
+1, manzarası yoksa olmaz
+0, manzarasız da olur
+1, saat beş zor
+0, altı olsun
+0, kredili
+1, bu aidat bize çok
+0, müthiş bir fırsat
+0, bu daireyi kaçırmayalım
+0, kredi işi kolay
+1, ödemesi biraz zor
+0, güney cephesi önemli
+1, dumankaya olmasın mümkünse
+0, dap yapı dairelerimiz var
+0, elden teslim olacak
+0, parkeler yeni yapıldı
+1, toplu taşımaya uzak
+0, ev sahibi geldi
+1, evde kiracı yok
+0, kiracı bulmak kolay
+1, teslim süreci yavaş
+1, kiracı bulmak zor
+1, o bölge uzak kalır
+1, ulaşımı zor
+0, sosyal tesisleri donanımlı
+1, sosyal tesislerinde iş yok
+0, çok kuvvetli bir proje
+1, depreme karşı zayıf
+0, depreme karşı kuvvetli
+0, güçlü yatırım fırsatı
+1, yatırım getirisi az
+0, deniz manzarası çok hoş
+0, adalar ve boğaz manzaralı
+1, güney cephesine bakmıyor
+1, diğeri kuzey cephesine bakıyor
+0, sabah güneşi alıyor
+1, başka bir konut arıyoruz
+0, doğru yerdesiniz
+0, dört artı bir olsun
+1, iki oda olmaz
+1, yüksek olmazsa daha iyi
+0, yüksek kat olsun
+1, giriş kat istemiyorum
+0, bahçesi de var
+1, imar izni yok
+1, orası dün satıldı
+0, depo olarak kullanabiliyorsunuz
+0, ofis olarak kullanacağım
+1, ne yazık ki yok
+1, açık havuz kullanıma kapalı
+0, lokasyonu çok uygun
+0, daireyi yarın görebilirsiniz
+1, daireyi gösteremiyoruz
+0, dairede eşyalar var
+0, fabrika olarak satılıyor
+1, doğalgaz sistemi yoktur
+0, merkezi ısıtma mevcut
+0, 5 oda bulunmaktadır
+1, ebeveyn banyosu yok
+1, hayır
+0, evet
+1, yirminci kat olmasın
+0, giriş kat lazım
+0, mutlaka havuzu olsun
+0, gündüz gözüyle göreyim
+1, beyaz eşya olmasın
+0, metrekaresi yeterli
+1, yeterince büyük değil
+1, otoparklı değil
+1, güvenlik sistemi yok
+0, site güvenliği var
+0, sigortası var
+1, şöminesi yok
+0, hafta sonu uygun
+1, haftasonumu uygun değil
+0, hemen gelin
+1, hiç rahatsız etmeyelim
+0, tapulu gayrimenkuldur
+1, şu an elimde yok
+0, orada birkaç dairem var
+1, ofis olarak kullanamıyoruz
+0, rezidans arıyorum
+0, güler rezidansta var
+1, taş yapıda yok
+0, üç güne hazır
+1, ben sorumlu değilim
+1, ben bakmıyorum oralara
+0, tadilat kolay gözüküyor
+1, kiraya vermeyeceğim
+0, kiralık bakıyoruz
+0, farbika arsası olsun
+1, yangın çıkışı yok
